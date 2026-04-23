@@ -23,7 +23,7 @@ vectorstore = Chroma.from_documents(
     persist_directory="./chroma_db"  
 )
 
-os.environ['GEMINI_API_KEY'] = "AIzaSyA-4XhDaqXRshYJl_lEMvg5MevbCpwZbmQ"
+os.environ['GEMINI_API_KEY'] = "YOUR_API_KEY"
 
 llm = GoogleGenerativeAI(model="gemini-2.5-flash-lite",temperature=1)
 
